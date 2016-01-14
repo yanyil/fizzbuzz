@@ -12,4 +12,7 @@ end
   it 'returns 1 when passed 1' do
     expect(fizzbuzz(1)).to eq 1
   end
+  it 'returns "not a valid number" when passed "a"' do
+    expect(fizzbuzz "a").to eq "not a valid number"
+  end
 end
